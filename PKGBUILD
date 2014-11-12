@@ -3,7 +3,7 @@
 #Edited by: Torsten Burschka <torsten.burschka@gmail.com>
 
 pkgname=sonarqube
-pkgver=4.5
+pkgver=4.5.1
 pkgrel=1
 pkgdesc="A code quality management platform."
 url="http://www.sonarqube.org/"
@@ -28,7 +28,7 @@ source=(http://dist.sonar.codehaus.org/${pkgname}-${pkgver}.zip
         'sonar.sh.patch'
         'sonarqube.service')	
 
-md5sums=('a39a52a29344b422029bd8b04d1cb84d'
+md5sums=('b18e35230f1998532f4f4a0673d42c40'
 		 'b4b9cef868abe95be5cc08c15d926244'
 		 '3d1970d0f29080438abdcce38fd556fe'
          'ce78144ab5f04d644f574c29716d23f8')
